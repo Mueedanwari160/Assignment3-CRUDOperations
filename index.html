@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> 
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+   <div class="title1">CRUD OPERATIONS</div>
+    <br>
+    <br>
+    <br>
+    <h1 class="addedProductsH1">Your Products</h1>
+    <form id="form1">
+      <div class="addedProducts">
+        <table class="table table-warning table-striped" id="UserInfo">
+          <tr>
+            <th>Product Id.</th>
+
+            <th>Product</th>
+
+            <th>Quantity</th>
+            <th>Price</th>
+
+            <th>Action</th>
+          </tr>
+
+          <tbody id="table_td"></tbody>
+        </table>
+      </div>
+      
+      <div class="addProduct">
+        <h1 class="addProductH1">Add a Product</h1>
+
+        <table class="table table-warning table-striped" id="Add">
+          <tr>
+            <th>Product Id.</th>
+
+            <th>Product</th>
+
+            <th>Quantity(kg.)</th>
+            <th>Price(Rs.)</th>
+          </tr>
+
+          <tr>
+            <td>
+              <input
+                type="text"
+                id="_id"
+                style="display: none"
+                readonly
+                name="ID"
+                value=""
+              />
+            </td>
+
+            <td>
+              <input type="text" id="_name" name="name" value="" />
+            </td>
+
+            <td>
+              <input type="number" id="_quantity" />
+            </td>
+            <td>
+              <input type="number" id="_price" />
+            </td>
+          </tr>
+        </table>
+      </div>
+    
+      <button type="button" id="btnAdd" class="btn btn-warning">Add</button>
+      
+      <button
+        type="button"
+        id="btnUpdate"
+        class="btn btn-info"
+        style="display: none"
+      >
+        Update
+      </button>
+
+      <br />
+      
+      <div id="output"></div>
+    </form>
+  </body>
+</html>

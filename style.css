@@ -1,0 +1,67 @@
+.title1 {
+    display: block;
+    margin-left: 20%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: goldenrod;
+  }
+  .addProduct {
+    margin-top: 1rem;
+    margin-left: 20%;
+  }
+  .addProductH1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color: goldenrod;
+  }
+  table {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+  }
+  #btnAdd {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    display: block;
+    margin-left: 20%;
+    font-weight: bold;
+  }
+  #btnUpdate {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    display: block;
+    margin-left: 33rem;
+  }
+  .addedProducts {
+    margin-left: 20%;
+  }
+  .addedProductsH1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    margin-left: 20%;
+    color: goldenrod;
+  }
+  #A_Edit {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-size: 1.5rem;
+    border: 2px solid transparent;
+    background-color: red;
+    color: white;
+    border-radius: 0.7rem;
+  }
+  #A_delete {
+    margin-left: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-size: 1.5rem;
+    border: 2px solid transparent;
+    background-color: lightblue;
+    color: white;
+    border-radius: 0.7rem;
+  }
+  input {
+    border: transparent;
+    border-radius: 2rem;
+    background-color: rgba(0, 0, 0, 0.105);
+  }
